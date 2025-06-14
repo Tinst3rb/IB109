@@ -1,6 +1,6 @@
 CC = mpicc
 CFLAGS = -std=c99 -Wall -Wextra -O2
-TARGET = main
+TARGET = leader_election
 SOURCE = main.c
 
 all: $(TARGET)
